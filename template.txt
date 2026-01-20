@@ -1,12 +1,17 @@
-Subject: Exploring a potential collaboration
-Hi {name},
+Subject: Missed calls at {business_name}?
 
-I hope this email finds you well.
+Hi {first_name},
 
-I am reaching out to discuss how we might be able to work together. We have some exciting opportunities at Pulzivo that I think would be a great fit for you.
+I'm reaching out because I suspect {business_name} might be missing {customer_type} calls after hours, which means losing lifetime value on new {customer_type}s.
 
-Looking forward to hearing from you.
+I run a team that installs 24/7 AI receptionists. We don't just "book appointments"—we handle support, intake, and scheduling instantly, day or night.
 
-Best regards,
+**My bold promise:** If there is *any* repetitive admin task your front desk hates doing, I will build an automation to fix it within 48 hours. **If it doesn't save you at least 10 hours a week, you don't pay a dime.**
+
+I’m currently working with a few other local businesses and have capacity for one more this week.
+
+Open to seeing how it works?
+
 Reza
+Founder, Pulzivo
 pulzivo.dev
