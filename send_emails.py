@@ -43,23 +43,35 @@ def load_template():
     return subject_line, body
 
 def send_email(name, email, subject, body):
-    # Escape double quotes and backslashes for AppleScript
-    safe_body = body.replace('\\', '\\\\').replace('"', '\"')
-    safe_subject = subject.replace('\\', '\\\\').replace('"', '\"')
+    # Remove markdown bold/italics
+    clean_body = body.replace('**', '').replace('_', '')
     
-    script = f'''
+    # Escape double quotes and backslashes for AppleScript
+    safe_body = clean_body.replace('\\', '\\\\').replace('"', '\\"')
+    safe_subject = subject.replace('\\', '\\\\').replace('"', '\\"')
+    safe_name = name.replace('\\', '\\\\').replace('"', '\\"')
+    safe_email = email.replace('\\', '\\\\').replace('"', '\\"')
+    
+    script_content = f'''
     tell application "Mail"
         set newMessage to make new outgoing message with properties {{subject:"{safe_subject}", content:"{safe_body}", visible:false}}
         tell newMessage
-            make new to recipient at end of to recipients with properties {{address:"{email}"}}
+            make new to recipient at end of to recipients with properties {{name:"{safe_name}", address:"{safe_email}"}}
             set sender to "{SENDER_ADDRESS}"
         end tell
         send newMessage
     end tell
     '''
     
+    script_path = 'temp_mail.applescript'
+    with open(script_path, 'w') as f:
+        f.write(script_content)
+    
     try:
-        result = subprocess.run(['osascript', '-e', script], capture_output=True, text=True)
+        result = subprocess.run(['osascript', script_path], capture_output=True, text=True)
+        if os.path.exists(script_path):
+            os.remove(script_path)
+        
         if result.returncode == 0:
             print(f"✅ Sent email to {name} <{email}>")
             return True
@@ -67,6 +79,8 @@ def send_email(name, email, subject, body):
             print(f"❌ Failed to send to {name} <{email}>: {result.stderr}")
             return False
     except Exception as e:
+        if os.path.exists(script_path):
+            os.remove(script_path)
         print(f"❌ Error sending to {name} <{email}>: {e}")
         return False
 
@@ -145,19 +159,10 @@ def main():
                 mark_as_sent(email)
                 sent_count += 1
                 
-                # Wait logic to avoid spamming (only if there are more to send)
+                # Wait logic to avoid spamming
                 if i < total_emails - 1:
-                    wait_seconds = 300 # 5 minutes
+                    wait_seconds = 120  # 2 minutes
                     print(f"Waiting {wait_seconds} seconds before next email...")
-                    # Simulating wait with visual feedback
-                    # time.sleep(wait_seconds) 
-                    # For testing/demo purposes, maybe shorten or just print.
-                    # Keeping the original logic but adding a break/shorten for now if user wants to run it.
-                    # As I am writing the file for the user to use, I will keep the 300s wait.
-                    
-                    # To not block the agent interaction indefinitely if I were to run this, 
-                    # but I am just writing the file. The user will run it.
-                    pass 
-
+                    time.sleep(wait_seconds)
 if __name__ == "__main__":
     main()
