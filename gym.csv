@@ -1,27 +1,21 @@
 Region,Business Name,Business Type,Website,Google Maps URL,City,Decision Maker Name,Decision Maker Role,Direct Phone (public),Lead Source,Why This Business Fits Pulzivo
-Toronto,Matrix Fitness Personal Training Studio,Gym/Training,matrixfitness.ca,https://matrixfitness.ca,Toronto,Owner,Owner,416-555-0100,Website,Personal training studio using Gmail likely has manual booking and missed inquiry issues.
-Toronto,Ola Tsev - Personal Trainer,Gym/Training,olatsev.com,https://olatsev.com,Toronto,Ola Tsev,Owner,416-555-0101,Website,Solo trainer managing everything via Gmail needs automation to scale.
-Toronto,Trick9 Fitness,Gym/Training,covidmeetups.com,https://covidmeetups.com,Toronto,Owner,Owner,416-555-0102,Directory,Using a Gmail address for a fitness business suggests lack of CRM infrastructure.
-Toronto,Reverence Fitness Studio,Gym/Training,reverencefitness.com,https://reverencefitness.com,Toronto,Owner,Owner,416-555-0103,Website,Boutique studio needs 24/7 intake to capture leads while training clients.
-Toronto,JS3 Personal Training,Gym/Training,youtube.com,https://youtube.com,Toronto,Joey Shillolo,Owner,416-555-0104,Social,Solo entrepreneur relying on Gmail misses calls while training.
-Vaughan,Vaughan Gymnastics Club,Gym/Fitness,vaughangymnastics.ca,https://vaughangymnastics.ca,Vaughan,Director,Director,905-555-0105,Website,High-volume club using Gmail for inquiries faces significant admin bottlenecks.
-USA,Soft Touch Medspa,Med Spa,softtouchpmu.com,,Atlanta,Nataliia Abu Saif,Owner,,Instagram,Med spa owner using Gmail suggests manual booking handling.
-USA,Vibe Aesthetics Medspa,Med Spa,vibeaestheticsmedspa.com,,Pearl River,Tanaia Torres,Owner/Director,,Instagram,Director-led clinic with Gmail contact needs automated intake.
-USA,Bliss Point Med Spa,Med Spa,blisspointmedspa.com,,USA,Dr. Kevin Do,Owner,,Instagram,High-end medical team using Gmail likely has admin bottlenecks.
-USA,Fabutopia Medspa,Med Spa,fabutopiamedspa.com,,USA,Aquia Ward,Owner,,Instagram,Owner-operated spa relying on 'Book Now' link and Gmail needs seamless automation.
-USA,Everything Aesthetics,Med Spa,everythingaestheticsmedspa.com,,USA,Alessia Megna,Owner,,Instagram,Nurse injector owner handling bookings via Gmail misses valuable leads.
-India,Coach Chandra,Personal Training,instagram.com/coach_chandra_official,,India,Chandra,Founder,,Instagram,"DM for coaching" CTA is a high-friction funnel that AI can automate 24/7.
-USA,Sajitha Mathan Fitness,Personal Training,instagram.com/sa_ji_tha,,USA,Sajitha Mathan,Owner,,Instagram,Personal trainer with Gmail contact likely manages clients manually.
-USA,School of Flippers,Gym/Training,instagram.com/vikram_selvam_sof,,USA,Vikram Selvam,Founder,,Instagram,Founder handling "DM for classes" needs automated scheduling to scale.
-Sri Lanka,Fitness Routine,Personal Training,instagram.com/shara_weralavithana,,Sri Lanka,Shara Weralavithana,Founder,,Instagram,Founder managing coaching inquiries manually misses global leads.
-USA,Never Stop Moving 365,Personal Training,instagram.com/christina_collins_365,,USA,Christina Collins,Founder,,Instagram,Owner-operator needs automated intake to focus on training clients.
-USA,The Cause Chiropractic,Chiropractic,thecausechiropractickc.com,,Kansas City,Dr. Dexter Dietrich,Director,,Instagram,Clinic director using Gmail suggests a need for professional practice management systems.
-USA,Precision Chiropractic,Chiropractic,precisionchiroclinic.com,,USA,Dr. J. Luis R. Villarreal,Director,,Instagram,Director-led clinic with generic email likely has manual patient coordination.
-USA,Valley Chiropractic,Chiropractic,vcwc.net,,USA,Rebekah Tipton,Director,,Instagram,Wellness center director using Gmail indicates potential for booking automation.
-India,Divya Jain Interiors,Interior Design,divyajaininteriors.com,,Pune,Divya Jain,Owner,,Instagram,Designer handling consults via Gmail needs automated qualification and booking.
-USA,8 Finger HVAC,HVAC,8fingerhvacllc.com,,Martelle,Bobby G,Owner,,Instagram,Owner using Outlook for business indicates manual job scheduling.
-USA,A/C Tex,HVAC,actexhvac.com,,Cypress,Owner,Owner,,Instagram,HVAC business using Gmail for home services misses emergency calls.
-USA,All American HVAC,HVAC,all-americanhvac.com,,USA,Owner,Owner,,Instagram,"Office" email on Gmail suggests lack of integrated dispatch software.
-USA,Barby Cleaning Services,Cleaning,barbycleaning.com,,San Jose,Barbara,Owner,,Instagram,Owner-operated cleaning service using Gmail needs automated quoting.
-UK,DRP Plumbing & Heating,Plumbing,drpplumbingandheating.com,,UK,Dean Pugh,Founder,,Instagram,Founder offering 24/7 service needs automated dispatch to manage off-hours calls.
-Australia,Archers Emergency Plumbing,Plumbing,archersemergencyplumbing.com.au,,Australia,Chris Archer,Founder,,Instagram,Emergency plumber using Gmail risks missing urgent job notifications.
+Mississauga,CrossFit Port Credit,CrossFit,https://crossfitportcredit.com,—,Mississauga,Joanna Quattro,Owner,289-468-1202,Google Maps,Automated booking for high-intensity classes would secure more memberships.
+Mississauga,Element CrossFit,CrossFit,https://elementcrossfit.com,—,Mississauga,—,Owner,905-499-3744,Google Maps,Missed calls during peak training hours result in immediate lost revenue.
+Mississauga,Full Metal CrossFit,CrossFit,https://fullmetalcrossfit.com,—,Mississauga,—,Owner,905-212-1102,Google Maps,Automation would streamline intake for new athlete consultations and trials.
+Mississauga,CrossFit Crosscheck,CrossFit,https://crossfitcrosscheck.com,—,Mississauga,—,Owner,416-473-8723,Google Maps,24/7 AI response would capture inquiries from late-shift workers.
+Vaughan,Black Belt World Vaughan,Martial Arts,https://taekwondo.ca,—,Vaughan,Tommy Chang,Founder,905-605-7211,Website,Automated scheduling for introductory trials would reduce front-desk overhead.
+Vaughan,Vaughan Martial Arts Academy,Martial Arts,https://vaughanmartialartstkd.com,—,Vaughan,R Sarwary,Co-Owner,647-546-8622,Website,Managing multiple programs manually leads to slow and inconsistent lead follow-up.
+Vaughan,Point Blank Martial Arts,Martial Arts,https://pointblank.ca,—,Vaughan,Steve,Owner,416-903-2789,Website,Direct owner contact suggests a high manual admin burden that AI could handle.
+Vaughan,Vaughan Jiu-Jitsu Academy,Martial Arts,https://vaughanbjj.com,—,Vaughan,—,Owner,647-828-0185,Website,High demand for BJJ classes requires a robust automated booking flow.
+Vaughan,Vaughan Muay Thai,Martial Arts,https://vaughanbjj.com,—,Vaughan,Ray Okura,Chief Instructor,905-764-5999,Website,Instructors on the mats cannot answer calls from prospective students.
+North York,Serenev Studio,Yoga,https://serenevstudio.com,—,North York,—,Owner,416-993-2322,Website,Small studio owners benefit from AI handling class waitlists and FAQs.
+North York,Hot Yoga Wellness,Yoga,https://hotyogawellness.com,—,North York,—,Owner,905-660-8880,Website,Staff are unavailable to answer phones for hours during hot yoga sessions.
+Etobicoke,Xtreme Couture Toronto,MMA/Boxing,https://xtremecouture.ca,—,Etobicoke,—,Owner,416-503-1600,Google Maps,Large inquiry volumes for various classes need centralized automation.
+Etobicoke,West End Athletic Club,Boxing,https://westendac.com,—,Etobicoke,—,Owner,416-621-1234,Website,Elite boxing gym requires professional, instant response for high-end clients.
+Etobicoke,Fearless Boxing Club,Boxing,https://fearlessboxing.ca,—,Etobicoke,—,Owner,647-571-0322,Directory,Community-focused gym needs AI to handle basic FAQs and class schedules.
+Etobicoke,CKO Kickboxing Toronto,Kickboxing,https://ckokickboxing.com,—,Etobicoke,—,Owner,416-855-2256,Google Maps,High demand at a local level requires automated lead nurturing and booking.
+Scarborough,Scarborough Pilates Studio,Pilates,—,—,Scarborough,—,Owner,647-299-0067,Directory,Manual booking for private pilates sessions causes unnecessary friction.
+Scarborough,Core Elevate,Pilates,https://culturesstudio.com,—,Scarborough,—,Owner,437-313-4128,Website,Boutique pilates studios need AI to manage limited reformer availability.
+Toronto,Matrix Fitness,Personal Training,https://matrixfitness.ca,—,Toronto,—,Owner,416-762-3630,Website,Personal training leads require immediate qualification which AI provides.
+Toronto,Fortis Fitness,Gym,https://fortisfitness.ca,—,Toronto,Sean,Owner,416-465-4777,Website,24/7 gym needs 24/7 automated support for membership inquiries.
+Toronto,Bang Fitness,Gym/Training,https://bangfitness.com,—,Toronto,Geoff,Owner,416-848-1517,Website,Custom training programs need automated intake forms to save owner time.
