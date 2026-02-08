@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>HVAC Leads SMS Tool</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; background: #f0f2f5; padding: 15px; }
+        h1 { text-align: center; color: #2d3436; font-size: 1.5em; margin-bottom: 20px; }
+        .section-header { background: #00b894; color: white; padding: 10px 15px; border-radius: 8px; margin: 25px 0 10px; font-size: 0.9em; font-weight: bold; text-transform: uppercase; }
+        .card { background: white; border-radius: 12px; padding: 16px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-left: 5px solid #00b894; }
+        .info { flex: 1; margin-right: 10px; }
+        .biz { font-weight: bold; font-size: 1.1em; color: #2d3436; display: block; }
+        .owner { color: #636e72; font-size: 0.9em; margin-top: 2px; display: block; }
+        .loc { color: #b2bec3; font-size: 0.8em; margin-top: 4px; display: block; }
+        .btn { background: #00b894; color: white; text-decoration: none; padding: 12px 20px; border-radius: 25px; font-weight: bold; font-size: 0.9em; flex-shrink: 0; box-shadow: 0 4px 6px rgba(0, 184, 148, 0.2); }
+        .btn:active { background: #009475; transform: scale(0.98); }
+    </style>
+</head>
+<body>
+    <h1>HVAC Leads Blaster 🛠️</h1>
+<div class="section-header">Toronto & GTA</div>
+        <div class="card">
+            <div class="info">
+                <span class="biz">Belyea Bros. Heating & Cooling</span>
+                <span class="owner">David Graeme</span>
+                <span class="loc">Toronto ON • (416) 425-1200</span>
+            </div>
+            <a class="btn" href="sms:4164251200;?&body=Hey%20David%2C%20quick%20question%20about%20Belyea%20Bros.%20Heating%20%26%20Cooling%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Laird & Son Heating</span>
+                <span class="owner">Neil Laird</span>
+                <span class="loc">Toronto ON • 416-421-2121</span>
+            </div>
+            <a class="btn" href="sms:4164212121;?&body=Hey%20Neil%2C%20quick%20question%20about%20Laird%20%26%20Son%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Tempasure Heating</span>
+                <span class="owner">Len Minuk</span>
+                <span class="loc">Toronto ON • 416-806-6111</span>
+            </div>
+            <a class="btn" href="sms:4168066111;?&body=Hey%20Len%2C%20quick%20question%20about%20Tempasure%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Dupont Heating & Air Conditioning</span>
+                <span class="owner">Louie Antonoglou</span>
+                <span class="loc">Toronto ON • (416) 532-2859</span>
+            </div>
+            <a class="btn" href="sms:4165322859;?&body=Hey%20Louie%2C%20quick%20question%20about%20Dupont%20Heating%20%26%20Air%20Conditioning%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Aire Max Heating & Cooling</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • (416) 635-6666</span>
+            </div>
+            <a class="btn" href="sms:4166356666;?&body=Hey%2C%20quick%20question%20about%20Aire%20Max%20Heating%20%26%20Cooling%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">LB Heating & Air Conditioning</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • (416) 762-1291</span>
+            </div>
+            <a class="btn" href="sms:4167621291;?&body=Hey%2C%20quick%20question%20about%20LB%20Heating%20%26%20Air%20Conditioning%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">For Saving Home Service</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • 416-335-0881</span>
+            </div>
+            <a class="btn" href="sms:4163350881;?&body=Hey%2C%20quick%20question%20about%20For%20Saving%20Home%20Service%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Empower Home Comfort</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • 800-375-8984</span>
+            </div>
+            <a class="btn" href="sms:8003758984;?&body=Hey%2C%20quick%20question%20about%20Empower%20Home%20Comfort%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">ThermTech</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • 416-835-1289</span>
+            </div>
+            <a class="btn" href="sms:4168351289;?&body=Hey%2C%20quick%20question%20about%20ThermTech%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Reliance Home Comfort Toronto</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • 1-888-837-1451</span>
+            </div>
+            <a class="btn" href="sms:18888371451;?&body=Hey%2C%20quick%20question%20about%20Reliance%20Home%20Comfort%20Toronto%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">1 Click Heating & Cooling</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Toronto ON • 1-800-458-1289</span>
+            </div>
+            <a class="btn" href="sms:18004581289;?&body=Hey%2C%20quick%20question%20about%201%20Click%20Heating%20%26%20Cooling%3F">Text</a>
+        </div>
+        <div class="section-header">Rest of Canada</div>
+        <div class="card">
+            <div class="info">
+                <span class="biz">BC Coastal Energy</span>
+                <span class="owner">Chris Dickson</span>
+                <span class="loc">Vancouver BC • (250) 585-5393</span>
+            </div>
+            <a class="btn" href="sms:2505855393;?&body=Hey%20Chris%2C%20quick%20question%20about%20BC%20Coastal%20Energy%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Pro Ace Heating & Air Conditioning</span>
+                <span class="owner">Arthur Phillips</span>
+                <span class="loc">Vancouver BC • (604) 293-3770</span>
+            </div>
+            <a class="btn" href="sms:6042933770;?&body=Hey%20Arthur%2C%20quick%20question%20about%20Pro%20Ace%20Heating%20%26%20Air%20Conditioning%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Reliable Heating & Cooling</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Vancouver BC • (778) 653-3044</span>
+            </div>
+            <a class="btn" href="sms:7786533044;?&body=Hey%2C%20quick%20question%20about%20Reliable%20Heating%20%26%20Cooling%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Ashton Service Group</span>
+                <span class="owner">Brian Williams</span>
+                <span class="loc">Vancouver BC • 604-278-2822</span>
+            </div>
+            <a class="btn" href="sms:6042782822;?&body=Hey%20Brian%2C%20quick%20question%20about%20Ashton%20Service%20Group%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">AireEnergy</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Vancouver BC • 1-855-847-7892</span>
+            </div>
+            <a class="btn" href="sms:18558477892;?&body=Hey%2C%20quick%20question%20about%20AireEnergy%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Vanheat Heating</span>
+                <span class="owner">Amir Dean</span>
+                <span class="loc">Vancouver BC • (604) 281-4790</span>
+            </div>
+            <a class="btn" href="sms:6042814790;?&body=Hey%20Amir%2C%20quick%20question%20about%20Vanheat%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Milani Plumbing Heating</span>
+                <span class="owner">Vern Milani</span>
+                <span class="loc">Vancouver BC • 604-888-8888</span>
+            </div>
+            <a class="btn" href="sms:6048888888;?&body=Hey%20Vern%2C%20quick%20question%20about%20Milani%20Plumbing%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Crown Roofing & HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Vancouver BC • 604-370-6288</span>
+            </div>
+            <a class="btn" href="sms:6043706288;?&body=Hey%2C%20quick%20question%20about%20Crown%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">GVRD Roofing & HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Vancouver BC • +1-604-445-4873</span>
+            </div>
+            <a class="btn" href="sms:+16044454873;?&body=Hey%2C%20quick%20question%20about%20GVRD%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Canada Furnace Heating</span>
+                <span class="owner">Matthew J Canada</span>
+                <span class="loc">Vancouver BC • (636) 336-6123</span>
+            </div>
+            <a class="btn" href="sms:6363366123;?&body=Hey%20Matthew%2C%20quick%20question%20about%20Canada%20Furnace%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Angels Heating</span>
+                <span class="owner">Maurice Armenta</span>
+                <span class="loc">Phoenix AZ • (602) 754-4021</span>
+            </div>
+            <a class="btn" href="sms:6027544021;?&body=Hey%20Maurice%2C%20quick%20question%20about%20Angels%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Action Furnace</span>
+                <span class="owner">Gaius Halverson</span>
+                <span class="loc">Calgary AB • (587) 206-1104</span>
+            </div>
+            <a class="btn" href="sms:5872061104;?&body=Hey%20Gaius%2C%20quick%20question%20about%20Action%20Furnace%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Arpi's Industries</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Calgary AB • (403) 236-2444</span>
+            </div>
+            <a class="btn" href="sms:4032362444;?&body=Hey%2C%20quick%20question%20about%20Arpi%27s%20Industries%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">ClearView Services</span>
+                <span class="owner">Kyle Lumsden</span>
+                <span class="loc">Calgary AB • (403) 216-8439</span>
+            </div>
+            <a class="btn" href="sms:4032168439;?&body=Hey%20Kyle%2C%20quick%20question%20about%20ClearView%20Services%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Furnace Family</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Calgary AB • 403-764-4328</span>
+            </div>
+            <a class="btn" href="sms:4037644328;?&body=Hey%2C%20quick%20question%20about%20Furnace%20Family%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Knight Plumbing Heating</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Calgary AB • (587) 317-2535</span>
+            </div>
+            <a class="btn" href="sms:5873172535;?&body=Hey%2C%20quick%20question%20about%20Knight%20Plumbing%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Trust Home Comfort</span>
+                <span class="owner">Van Wu</span>
+                <span class="loc">Edmonton AB • (780) 729-8966</span>
+            </div>
+            <a class="btn" href="sms:7807298966;?&body=Hey%20Van%2C%20quick%20question%20about%20Trust%20Home%20Comfort%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">A. Clark Roofing & HVAC</span>
+                <span class="owner">Douglas A. Clark</span>
+                <span class="loc">Edmonton AB • (780) 465-7571</span>
+            </div>
+            <a class="btn" href="sms:7804657571;?&body=Hey%20Douglas%2C%20quick%20question%20about%20A.%20Clark%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Sargeant's Roofing & HVAC</span>
+                <span class="owner">Adam Sand</span>
+                <span class="loc">Edmonton AB • (780) 863-4653</span>
+            </div>
+            <a class="btn" href="sms:7808634653;?&body=Hey%20Adam%2C%20quick%20question%20about%20Sargeant%27s%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Nor-Can Heating & Air</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Edmonton AB • 780-851-4258</span>
+            </div>
+            <a class="btn" href="sms:7808514258;?&body=Hey%2C%20quick%20question%20about%20Nor-Can%20Heating%20%26%20Air%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Acclaimed! Heating</span>
+                <span class="owner">Tami Lackey</span>
+                <span class="loc">Edmonton AB • (587) 206-0617</span>
+            </div>
+            <a class="btn" href="sms:5872060617;?&body=Hey%20Tami%2C%20quick%20question%20about%20Acclaimed%21%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Advanced Roofing & HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Edmonton AB • (780) 463-6320</span>
+            </div>
+            <a class="btn" href="sms:7804636320;?&body=Hey%2C%20quick%20question%20about%20Advanced%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Jayson Global HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Edmonton AB • (780) 438-0331</span>
+            </div>
+            <a class="btn" href="sms:7804380331;?&body=Hey%2C%20quick%20question%20about%20Jayson%20Global%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Legacy Heating and Cooling</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Edmonton AB • 780-733-1256</span>
+            </div>
+            <a class="btn" href="sms:7807331256;?&body=Hey%2C%20quick%20question%20about%20Legacy%20Heating%20and%20Cooling%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Dion Comfort</span>
+                <span class="owner">Frank Dion</span>
+                <span class="loc">Ottawa ON • 613-301-1333</span>
+            </div>
+            <a class="btn" href="sms:6133011333;?&body=Hey%20Frank%2C%20quick%20question%20about%20Dion%20Comfort%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Rick Menard Heating</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Ottawa ON • 613-834-1415</span>
+            </div>
+            <a class="btn" href="sms:6138341415;?&body=Hey%2C%20quick%20question%20about%20Rick%20Menard%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Sanderson Roofing & HVAC</span>
+                <span class="owner">Donald Mann</span>
+                <span class="loc">Ottawa ON • (613) 800-5865</span>
+            </div>
+            <a class="btn" href="sms:6138005865;?&body=Hey%20Donald%2C%20quick%20question%20about%20Sanderson%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Ottawa Home Services</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Ottawa ON • 613-604-4777</span>
+            </div>
+            <a class="btn" href="sms:6136044777;?&body=Hey%2C%20quick%20question%20about%20Ottawa%20Home%20Services%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">J.C. Robinson & Sons</span>
+                <span class="owner">Courtney Robinson</span>
+                <span class="loc">Ottawa ON • (613) 733-2481</span>
+            </div>
+            <a class="btn" href="sms:6137332481;?&body=Hey%20Courtney%2C%20quick%20question%20about%20J.C.%20Robinson%20%26%20Sons%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Anchor Home Comfort</span>
+                <span class="owner">Darren Parsons</span>
+                <span class="loc">Ottawa ON • (343) 883-7228</span>
+            </div>
+            <a class="btn" href="sms:3438837228;?&body=Hey%20Darren%2C%20quick%20question%20about%20Anchor%20Home%20Comfort%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Vanity Roofing & HVAC</span>
+                <span class="owner">Kevin Dao</span>
+                <span class="loc">Ottawa ON • 613-851-4448</span>
+            </div>
+            <a class="btn" href="sms:6138514448;?&body=Hey%20Kevin%2C%20quick%20question%20about%20Vanity%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Tradesman Mechanical</span>
+                <span class="owner">Mark J. Boissoneault</span>
+                <span class="loc">Winnipeg MB • (204) 888-2020</span>
+            </div>
+            <a class="btn" href="sms:2048882020;?&body=Hey%20Mark%2C%20quick%20question%20about%20Tradesman%20Mechanical%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Furnasman Heating</span>
+                <span class="owner">Collin Goodyear</span>
+                <span class="loc">Winnipeg MB • (204) 272-0333</span>
+            </div>
+            <a class="btn" href="sms:2042720333;?&body=Hey%20Collin%2C%20quick%20question%20about%20Furnasman%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Lynn's Plumbing Heating</span>
+                <span class="owner">Dallas Friesen</span>
+                <span class="loc">Winnipeg MB • (204) 817-1595</span>
+            </div>
+            <a class="btn" href="sms:2048171595;?&body=Hey%20Dallas%2C%20quick%20question%20about%20Lynn%27s%20Plumbing%20Heating%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Transcona Roofing & HVAC</span>
+                <span class="owner">Richard Marcetti</span>
+                <span class="loc">Winnipeg MB • 204-233-3716</span>
+            </div>
+            <a class="btn" href="sms:2042333716;?&body=Hey%20Richard%2C%20quick%20question%20about%20Transcona%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Above All Roofing & HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Winnipeg MB • 204-999-4674</span>
+            </div>
+            <a class="btn" href="sms:2049994674;?&body=Hey%2C%20quick%20question%20about%20Above%20All%20Roofing%20%26%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Dr. Roof Winnipeg</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Winnipeg MB • 204-453-5553</span>
+            </div>
+            <a class="btn" href="sms:2044535553;?&body=Hey%2C%20quick%20question%20about%20Dr.%20Roof%20Winnipeg%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">AirGreen</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Montreal QC • (514) 316-2973</span>
+            </div>
+            <a class="btn" href="sms:5143162973;?&body=Hey%2C%20quick%20question%20about%20AirGreen%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Allard & Emond</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Montreal QC • (514) 332-6666</span>
+            </div>
+            <a class="btn" href="sms:5143326666;?&body=Hey%2C%20quick%20question%20about%20Allard%20%26%20Emond%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">JCD Refrigeration</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Montreal QC • (514) 696-4629</span>
+            </div>
+            <a class="btn" href="sms:5146964629;?&body=Hey%2C%20quick%20question%20about%20JCD%20Refrigeration%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Confort Expert</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Montreal QC • 514-640-7711</span>
+            </div>
+            <a class="btn" href="sms:5146407711;?&body=Hey%2C%20quick%20question%20about%20Confort%20Expert%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Toitures Quebec HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Quebec City QC • 418-864-8873</span>
+            </div>
+            <a class="btn" href="sms:4188648873;?&body=Hey%2C%20quick%20question%20about%20Toitures%20Quebec%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Twenty Degrees Ltd</span>
+                <span class="owner">Gordon Fraser</span>
+                <span class="loc">Halifax NS • +19024565779</span>
+            </div>
+            <a class="btn" href="sms:+19024565779;?&body=Hey%20Gordon%2C%20quick%20question%20about%20Twenty%20Degrees%20Ltd%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Atmosphere Climate Control</span>
+                <span class="owner">Cory MacNutt</span>
+                <span class="loc">Halifax NS • (902) 483-6592</span>
+            </div>
+            <a class="btn" href="sms:9024836592;?&body=Hey%20Cory%2C%20quick%20question%20about%20Atmosphere%20Climate%20Control%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Presidential Ventilation</span>
+                <span class="owner">Derek Nicks</span>
+                <span class="loc">Halifax NS • 902-832-1067</span>
+            </div>
+            <a class="btn" href="sms:9028321067;?&body=Hey%20Derek%2C%20quick%20question%20about%20Presidential%20Ventilation%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Ace Refrigeration</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Halifax NS • 902-292-7979</span>
+            </div>
+            <a class="btn" href="sms:9022927979;?&body=Hey%2C%20quick%20question%20about%20Ace%20Refrigeration%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Bluenose HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Halifax NS • 902-401-4809</span>
+            </div>
+            <a class="btn" href="sms:9024014809;?&body=Hey%2C%20quick%20question%20about%20Bluenose%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Forest City HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">London ON • 519-659-6937</span>
+            </div>
+            <a class="btn" href="sms:5196596937;?&body=Hey%2C%20quick%20question%20about%20Forest%20City%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Davidoff HVAC</span>
+                <span class="owner">David Off</span>
+                <span class="loc">London ON • 519-641-7663</span>
+            </div>
+            <a class="btn" href="sms:5196417663;?&body=Hey%20David%2C%20quick%20question%20about%20Davidoff%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Murray Shaw HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">London ON • 519-473-7500</span>
+            </div>
+            <a class="btn" href="sms:5194737500;?&body=Hey%2C%20quick%20question%20about%20Murray%20Shaw%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">D'Angelo & Sons HVAC</span>
+                <span class="owner">Aaron D'Angelo</span>
+                <span class="loc">Hamilton ON • 905-387-3000</span>
+            </div>
+            <a class="btn" href="sms:9053873000;?&body=Hey%20Aaron%2C%20quick%20question%20about%20D%27Angelo%20%26%20Sons%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Desi's HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Hamilton ON • 905-574-4178</span>
+            </div>
+            <a class="btn" href="sms:9055744178;?&body=Hey%2C%20quick%20question%20about%20Desi%27s%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Herb Lodde HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Hamilton ON • 905-332-8200</span>
+            </div>
+            <a class="btn" href="sms:9053328200;?&body=Hey%2C%20quick%20question%20about%20Herb%20Lodde%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Wheatland HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Regina SK • (306) 924-4277</span>
+            </div>
+            <a class="btn" href="sms:3069244277;?&body=Hey%2C%20quick%20question%20about%20Wheatland%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Cactus HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Saskatoon SK • 306-477-5526</span>
+            </div>
+            <a class="btn" href="sms:3064775526;?&body=Hey%2C%20quick%20question%20about%20Cactus%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz">Wilderness HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Saskatoon SK • 306-384-7663</span>
+            </div>
+            <a class="btn" href="sms:3063847663;?&body=Hey%2C%20quick%20question%20about%20Wilderness%20HVAC%3F">Text</a>
+        </div>
+        
+        <div class="card">
+            <div class="info">
+                <span class="biz"> Duncan HVAC</span>
+                <span class="owner">Owner</span>
+                <span class="loc">Regina SK • 306-757-7663</span>
+            </div>
+            <a class="btn" href="sms:3067577663;?&body=Hey%2C%20quick%20question%20about%20%20Duncan%20HVAC%3F">Text</a>
+        </div>
+        </body></html>
